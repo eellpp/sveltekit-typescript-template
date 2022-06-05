@@ -1,7 +1,7 @@
 <script lang="ts">
-    export let message:String = "Demo of using Typescript"
+    import Showname from "./showname.svelte";
+    // export let message:String = "Demo of using Typescript"
 </script>
 
 
-<p>{message}</p>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<Showname name="Tim" ></Showname>
